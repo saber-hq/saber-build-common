@@ -1,6 +1,6 @@
-import type { Linter } from "eslint";
+import type { TSESLint } from "@typescript-eslint/utils";
 
-const config: Linter.Config = {
+const config: TSESLint.Linter.Config = {
   env: {
     browser: true,
   },

@@ -1,8 +1,8 @@
 import "@typescript-eslint/eslint-plugin";
 
-import type { Linter } from "eslint";
+import type { TSESLint } from "@typescript-eslint/utils";
 
-const config: Linter.Config = {
+const config: TSESLint.Linter.Config = {
   root: true,
   ignorePatterns: ["dist/", "*.js"],
   parser: "@typescript-eslint/parser",
