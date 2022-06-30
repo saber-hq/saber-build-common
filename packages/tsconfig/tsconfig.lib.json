@@ -16,6 +16,8 @@
     "importHelpers": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "allowJs": true,
+    "checkJs": true,
 
     // linting
     "strict": true,

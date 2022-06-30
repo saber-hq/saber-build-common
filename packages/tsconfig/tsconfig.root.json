@@ -3,10 +3,8 @@
   "extends": "./tsconfig.module.json",
   "display": "Saber TSConfig for the root of monorepos (recommended)",
   "compilerOptions": {
-    "allowJs": true,
-    "checkJs": true,
     "noEmit": true,
-    "types": ["node"]
+    "types": ["node", "jest"]
   },
   "include": ["jest.config.mjs", ".eslintrc.cjs"]
 }
