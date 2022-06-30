@@ -19,7 +19,6 @@ jobs:
         with:
           cachix-auth-token: ${{ secrets.CACHIX_AUTH_TOKEN }}
       - run: yarn build
-      - run: yarn size
 
   typecheck:
     runs-on: ubuntu-latest
