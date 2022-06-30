@@ -36,9 +36,6 @@ jobs:
         run: yarn install
       - run: yarn build
       - run: yarn workspaces foreach -t version ${{ github.event.inputs.version }}
-      - uses: mikepenz/release-changelog-builder-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - id: git-release
         name: Perform Git release
         run: |
