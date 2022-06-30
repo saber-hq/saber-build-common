@@ -1,0 +1,66 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to publish, by explicit version or semver keyword."
+        required: true
+        default: patch
+
+jobs:
+  release-packages:
+    runs-on: ubuntu-latest
+    name: Release all packages
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          echo "Must be on master branch to publish packages."
+          exit 1
+        if: github.ref != 'refs/heads/master'
+      - name: Setup Node
+        uses: actions/setup-node@v3.3.0
+        with:
+          node-version: 14.x
+          registry-url: "https://registry.npmjs.org"
+      - name: Get yarn cache directory path
+        id: yarn-cache-dir-path
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+      - name: Yarn Cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+          key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-modules-
+      - name: Install Yarn dependencies
+        run: yarn install
+      - run: yarn build
+      - run: yarn workspaces foreach -t version ${{ github.event.inputs.version }}
+      - run: yarn docs:generate
+      - uses: mikepenz/release-changelog-builder-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - id: git-release
+        name: Perform Git release
+        run: |
+          VERSION=$(node -e "console.log(require('./package.json').version);")
+          git config user.name "GitHub Actions"
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add .
+          git commit -a -m "Release v$VERSION"
+          git tag "v$VERSION"
+          git push origin HEAD --tags
+          echo "::set-output name=version::v$VERSION"
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.git-release.outputs.version }}
+          generate_release_notes: true
+      - name: Publish
+        run: |
+          echo 'npmAuthToken: "${NODE_AUTH_TOKEN}"' >> .yarnrc.yml
+          git update-index --assume-unchanged .yarnrc.yml
+          yarn publish:all
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
