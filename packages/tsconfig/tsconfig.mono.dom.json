@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./tsconfig.cjs.json",
+  "extends": "./tsconfig.dom.json",
   "display": "Saber DOM TSConfig for monorepos",
   "compilerOptions": {
     "composite": true
