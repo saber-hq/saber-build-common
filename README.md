@@ -21,7 +21,7 @@ This repo was extracted from [saber-hq/saber-common](https://github.com/saber-hq
 
 ## Release
 
-To release a new version of `saber-build-common`, navigate to [the release action page](https://github.com/saber-hq/saber-common/actions/workflows/release.yml) and click "Run workflow".
+To release a new version of `saber-build-common`, navigate to [the release action page](https://github.com/saber-hq/saber-build-common/actions/workflows/release.yml) and click "Run workflow".
 
 There, you may specify `patch`, `minor`, or `major`.
 
