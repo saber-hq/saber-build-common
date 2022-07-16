@@ -147,7 +147,7 @@ __metadata:
     "@saberhq/eslint-config": "workspace:^"
     "@saberhq/tsconfig": "workspace:^"
     "@types/eslint": ^8.4.5
-    "@types/node": ^18.0.3
+    "@types/node": ^18.0.5
     "@typescript-eslint/utils": ^5.30.6
     eslint: ^8.19.0
     eslint-plugin-jsx-a11y: ^6.6.0
@@ -165,7 +165,7 @@ __metadata:
   dependencies:
     "@saberhq/tsconfig": "workspace:^"
     "@types/eslint": ^8.4.5
-    "@types/node": ^18.0.3
+    "@types/node": ^18.0.5
     "@typescript-eslint/eslint-plugin": ^5.30.6
     "@typescript-eslint/parser": ^5.30.6
     "@typescript-eslint/utils": ^5.30.6
@@ -192,7 +192,7 @@ __metadata:
     "@saberhq/eslint-config-react": "workspace:*"
     "@saberhq/tsconfig": "workspace:*"
     "@types/eslint": ^8.4.5
-    "@types/node": ^18.0.3
+    "@types/node": ^18.0.5
     "@types/react": ^18.0.15
     "@typescript-eslint/utils": ^5.30.6
     "@yarnpkg/doctor": ^3.1.3
@@ -320,10 +320,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^18.0.3":
-  version: 18.0.3
-  resolution: "@types/node@npm:18.0.3"
-  checksum: 5dec59fbbc1186c808b53df1ca717dad034dbd6a901c75f5b052c845618b531b05f27217122c6254db99529a68618e4cfc534ae3dbf4e88754e9e572df80defa
+"@types/node@npm:^18.0.5":
+  version: 18.0.5
+  resolution: "@types/node@npm:18.0.5"
+  checksum: cc9c67d0074252f798d226dd95a22e0e8851cf7fc623ef4a603d9ad2c2b46650f930147062ea33719008b1de67f08f499ad693307d02f8396e6f1fead8144329
   languageName: node
   linkType: hard
 
