@@ -4,5 +4,6 @@
   "display": "Saber DOM TSConfig for monorepos",
   "compilerOptions": {
     "composite": true
-  }
+  },
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }

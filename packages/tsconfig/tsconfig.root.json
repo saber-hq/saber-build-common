@@ -6,5 +6,10 @@
     "noEmit": true,
     "types": ["node", "jest"]
   },
-  "include": ["jest.config.mjs", ".eslintrc.cjs"]
+  "include": [
+    "jest.config.mjs",
+    ".eslintrc.cjs",
+    "packages/**/*.spec.ts",
+    "packages/**/*.test.ts"
+  ]
 }

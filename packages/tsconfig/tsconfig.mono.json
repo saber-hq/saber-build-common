@@ -4,5 +4,6 @@
   "display": "Saber Node16 TSConfig for monorepos (recommended)",
   "compilerOptions": {
     "composite": true
-  }
+  },
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
 }
