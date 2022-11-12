@@ -2583,8 +2583,8 @@ __metadata:
   linkType: hard
 
 "got@npm:^11.7.0":
-  version: 11.8.3
-  resolution: "got@npm:11.8.3"
+  version: 11.8.5
+  resolution: "got@npm:11.8.5"
   dependencies:
     "@sindresorhus/is": "npm:^4.0.0"
     "@szmarczak/http-timer": "npm:^4.0.5"
@@ -2597,7 +2597,7 @@ __metadata:
     lowercase-keys: "npm:^2.0.0"
     p-cancelable: "npm:^2.0.0"
     responselike: "npm:^2.0.0"
-  checksum: a8f73bc199c6792f1b709d599b3637be767d2047570d9a4f39de380ffb29d60a2dc97fb04d7724fefdb056787fbbb2001b2cf6d1393fdd14be2be485c38e246f
+  checksum: eb7d9477285de6ee81ed838dd2369925f2cbb6c2cb883ee25cad1fd2759ba52a1ee1944d83acd13cf0bd24fcc0a2b551665d088db712347d63df88dca31328d0
   languageName: node
   linkType: hard
 
