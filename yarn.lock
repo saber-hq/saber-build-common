@@ -270,7 +270,7 @@ __metadata:
     "@saberhq/eslint-config": "workspace:^"
     "@saberhq/tsconfig": "workspace:^"
     "@types/eslint": "npm:^8.4.6"
-    "@types/node": "npm:^18.8.2"
+    "@types/node": "npm:^18.11.17"
     "@typescript-eslint/utils": "npm:^5.39.0"
     eslint: "npm:^8.24.0"
     eslint-plugin-jsx-a11y: "npm:^6.6.1"
@@ -288,7 +288,7 @@ __metadata:
   dependencies:
     "@saberhq/tsconfig": "workspace:^"
     "@types/eslint": "npm:^8.4.6"
-    "@types/node": "npm:^18.8.2"
+    "@types/node": "npm:^18.11.17"
     "@typescript-eslint/eslint-plugin": "npm:^5.39.0"
     "@typescript-eslint/parser": "npm:^5.39.0"
     "@typescript-eslint/utils": "npm:^5.39.0"
@@ -315,7 +315,7 @@ __metadata:
     "@saberhq/eslint-config-react": "workspace:*"
     "@saberhq/tsconfig": "workspace:*"
     "@types/eslint": "npm:^8.4.6"
-    "@types/node": "npm:^18.8.2"
+    "@types/node": "npm:^18.11.17"
     "@types/react": "npm:^18.0.21"
     "@typescript-eslint/utils": "npm:^5.39.0"
     "@yarnpkg/doctor": "npm:^4.0.0-rc.22"
@@ -429,17 +429,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.11.17":
+  version: 18.11.17
+  resolution: "@types/node@npm:18.11.17"
+  checksum: c344af96ffdcc429d8d79576de72061553cd083d06cde8209a82b3d927c62ecf2211f24c3b970194636833f9dcfd94228f2b019f2d796f1f20dfc0d12e6dcc2b
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^18.7.6":
   version: 18.7.23
   resolution: "@types/node@npm:18.7.23"
   checksum: 83f50561f3858e514d864cea3fbfc3142ec58a6acaf9c405609776b97b67a4692309feb1b9f928cca8ebdc964554a2e02480feb98f1774881ce440a9df722924
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^18.8.2":
-  version: 18.8.2
-  resolution: "@types/node@npm:18.8.2"
-  checksum: 2a199f877777148eb536f92ca19543e2cff54cfbf966642325f10cffcbeb3ef0a0b456cc766287e1e560946c5c3024f0d310a6345d566d3918d4c9bfcede4c7d
   languageName: node
   linkType: hard
 
