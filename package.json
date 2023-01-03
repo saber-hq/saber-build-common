@@ -19,7 +19,7 @@
     "@types/eslint": "^8.4.6",
     "@types/node": "^18.8.2",
     "@types/react": "^18.0.21",
-    "@typescript-eslint/utils": "^5.39.0",
+    "@typescript-eslint/utils": "^5.48.0",
     "@yarnpkg/doctor": "^4.0.0-rc.22",
     "eslint": "^8.24.0",
     "husky": "^8.0.1",
