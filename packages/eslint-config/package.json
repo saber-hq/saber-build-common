@@ -1,6 +1,6 @@
 {
   "name": "@saberhq/eslint-config",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Saber base ESLint config",
   "homepage": "https://github.com/saber-hq/saber-build-common/tree/master/packages/eslint-config#readme",
   "repository": "git+https://github.com/saber-hq/saber-build-common.git",
