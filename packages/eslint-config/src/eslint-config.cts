@@ -1,6 +1,6 @@
 import "@typescript-eslint/eslint-plugin";
 
-import type { TSESLint } from "@typescript-eslint/utils";
+import type { TSESLint } from "@typescript-eslint/utils/dist";
 
 const config: TSESLint.Linter.Config = {
   root: true,
