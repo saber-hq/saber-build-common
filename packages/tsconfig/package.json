@@ -18,5 +18,17 @@
   "publishConfig": {
     "access": "public"
   },
+  "exports": {
+    "./tsconfig.cjs.json": "./tsconfig.cjs.json",
+    "./tsconfig.dom.json": "./tsconfig.dom.json",
+    "./tsconfig.lib.json": "./tsconfig.lib.json",
+    "./tsconfig.module.json": "./tsconfig.module.json",
+    "./tsconfig.module.react.json": "./tsconfig.module.react.json",
+    "./tsconfig.mono.cjs.json": "./tsconfig.mono.cjs.json",
+    "./tsconfig.mono.dom.json": "./tsconfig.mono.dom.json",
+    "./tsconfig.mono.json": "./tsconfig.mono.json",
+    "./tsconfig.react.json": "./tsconfig.react.json",
+    "./tsconfig.root.json": "./tsconfig.root.json"
+  },
   "gitHead": "f9fd3fbd36a7a6dd6f5e9597af5309affe50ac0e"
 }
