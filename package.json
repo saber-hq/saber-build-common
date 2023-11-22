@@ -38,6 +38,6 @@
     "prepare": "husky install",
     "doctor:packages": "yarn doctor packages/"
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "packageManager": "yarn@4.0.2"
 }
