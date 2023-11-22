@@ -35,7 +35,7 @@ jobs:
       - name: Install Yarn dependencies
         run: yarn install
       - run: yarn build
-      - run: yarn workspaces foreach -t version ${{ github.event.inputs.version }}
+      - run: yarn workspaces foreach --all -t version ${{ github.event.inputs.version }}
 
       - id: build-changelog
         name: Update the changelog
