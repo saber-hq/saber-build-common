@@ -1,7 +1,7 @@
 {
   "name": "@saberhq/tsconfig",
   "description": "Saber TypeScript configurations.",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "homepage": "https://github.com/saber-hq/saber-build-common/tree/master/packages/tsconfig#readme",
   "repository": "git+https://github.com/saber-hq/saber-build-common.git",
   "bugs": "https://github.com/saber-hq/saber-build-common/issues",
