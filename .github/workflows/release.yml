@@ -55,7 +55,7 @@ jobs:
           git push origin HEAD --tags
           echo "::set-output name=version::v$VERSION"
       - name: Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.git-release.outputs.version }}
           body: ${{steps.build-changelog.outputs.changelog}}
