@@ -12,20 +12,20 @@
     "*.{md,js,jsx,json,yml,yaml,css,md}": "prettier --write"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.10.1",
+    "@rushstack/eslint-patch": "^1.10.2",
     "@saberhq/eslint-config": "workspace:*",
     "@saberhq/eslint-config-react": "workspace:*",
     "@saberhq/tsconfig": "workspace:*",
-    "@types/eslint": "^8.56.6",
-    "@types/node": "^20.12.6",
-    "@types/react": "^18.2.73",
-    "@typescript-eslint/utils": "^7.4.0",
+    "@types/eslint": "^8.56.9",
+    "@types/node": "^20.12.7",
+    "@types/react": "^18.2.77",
+    "@typescript-eslint/utils": "^7.6.0",
     "@yarnpkg/doctor": "^4.0.1",
     "eslint": "^8.57.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "prettier": "^3.2.5",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   },
   "scripts": {
     "build": "yarn workspaces foreach --all --exclude @saberhq/saber-build-common -ptv run build",

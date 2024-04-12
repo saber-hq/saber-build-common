@@ -35,10 +35,10 @@
   },
   "devDependencies": {
     "@saberhq/tsconfig": "workspace:^",
-    "@types/eslint": "^8.56.6",
-    "@types/node": "^20.12.6",
-    "@typescript-eslint/utils": "^7.4.0",
+    "@types/eslint": "^8.56.9",
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/utils": "^7.6.0",
     "eslint": "^8.57.0",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   }
 }
