@@ -3,6 +3,6 @@
   "extends": "./tsconfig.module.json",
   "display": "Saber TSConfig for libraries that interact with the DOM (recommended)",
   "compilerOptions": {
-    "lib": ["DOM", "ES2019"]
+    "lib": ["DOM", "ES2022"]
   }
 }

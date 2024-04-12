@@ -8,7 +8,7 @@ This repo was extracted from [saber-hq/saber-common](https://github.com/saber-hq
 
 #### Module parse failed: Unexpected token
 
-`saber-common` [targets ES2019](packages/tsconfig/tsconfig.lib.json), which is [widely supported by modern DApp browsers](https://caniuse.com/?search=es2019). Please ensure that your build pipeline supports this version of ECMAScript.
+`saber-common` [targets ES2022](packages/tsconfig/tsconfig.lib.json), which is [widely supported by modern DApp browsers](https://caniuse.com/?search=es2022). Please ensure that your build pipeline supports this version of ECMAScript.
 
 ## Packages
 
