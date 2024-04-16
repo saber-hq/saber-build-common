@@ -336,7 +336,7 @@ __metadata:
     "@saberhq/tsconfig": "workspace:*"
     "@types/eslint": "npm:^8.56.9"
     "@types/node": "npm:^20.12.7"
-    "@types/react": "npm:^18.2.77"
+    "@types/react": "npm:^18.2.79"
     "@typescript-eslint/utils": "npm:^7.6.0"
     "@yarnpkg/doctor": "npm:^4.0.1"
     eslint: "npm:^8.57.0"
@@ -481,13 +481,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.2.77":
-  version: 18.2.77
-  resolution: "@types/react@npm:18.2.77"
+"@types/react@npm:^18.2.79":
+  version: 18.2.79
+  resolution: "@types/react@npm:18.2.79"
   dependencies:
     "@types/prop-types": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: 10/80d7ad9cf13e15895a857c66f5b0c1ce758c1e7580a76936d8d1b19c71e4485fa4b35d762a1de98de4eb91506cbc8507582c9a979f357b6f5f75f86009d8ca07
+  checksum: 10/2ef833e7d0a5c226beddbbe090811582371f6ae5e2f092a3d9f47cc6087c8bce0b96ee33e351de6d1d470f0a0ec5892d971933f841ef31538c1821681fc6569e
   languageName: node
   linkType: hard
 
