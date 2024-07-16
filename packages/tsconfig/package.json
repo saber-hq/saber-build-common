@@ -1,5 +1,6 @@
 {
   "name": "@saberhq/tsconfig",
+  "type": "module",
   "description": "Saber TypeScript configurations.",
   "version": "3.3.1",
   "homepage": "https://github.com/saber-hq/saber-build-common/tree/master/packages/tsconfig#readme",
