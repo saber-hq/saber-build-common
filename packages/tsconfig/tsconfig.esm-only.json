@@ -12,5 +12,6 @@
     "incremental": true,
     "composite": true,
     "isolatedDeclarations": true
-  }
+  },
+  "include": ["${configDir}/src"]
 }
