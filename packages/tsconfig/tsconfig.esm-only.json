@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Saber Base TSConfig for ESM-only libraries",
+  "extends": ["./tsconfig.lib.json"],
+  "compilerOptions": {
+    "outDir": "${configDir}/dist",
+    "rootDir": "${configDir}/src",
+
+    "incremental": true,
+    "composite": true,
+    "isolatedDeclarations": true
+  }
+}
