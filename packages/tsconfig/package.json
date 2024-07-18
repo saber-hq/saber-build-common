@@ -22,6 +22,7 @@
   "exports": {
     "./tsconfig.cjs.json": "./tsconfig.cjs.json",
     "./tsconfig.dom.json": "./tsconfig.dom.json",
+    "./tsconfig.esm-only.json": "./tsconfig.esm-only.json",
     "./tsconfig.lib.json": "./tsconfig.lib.json",
     "./tsconfig.module.json": "./tsconfig.module.json",
     "./tsconfig.module.react.json": "./tsconfig.module.react.json",
