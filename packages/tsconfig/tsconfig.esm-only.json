@@ -6,6 +6,9 @@
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}/src",
 
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+
     "incremental": true,
     "composite": true,
     "isolatedDeclarations": true
